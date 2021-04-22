@@ -48,3 +48,23 @@ def printer(msg):
 
 
 printer("Hello, This is a decorator")
+
+
+# List Comprehension with decorator
+
+def listComp(func):
+    def inner(*args, **kwargs):
+        items = [x for x in range(*args) if x % 2]
+        return func(items)
+
+    return inner
+
+
+@star
+@listComp
+@percent
+def evenNumber(number):
+    print(number)
+
+
+evenNumber(30)
