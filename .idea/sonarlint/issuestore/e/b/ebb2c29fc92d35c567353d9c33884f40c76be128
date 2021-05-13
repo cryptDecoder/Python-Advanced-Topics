@@ -1,0 +1,7 @@
+
+kpython:S1542"NRename function "colorBar" to match the regular expression ^[a-z_][a-z0-9_]*$.(õ¸ˆ˜ýÿÿÿÿ
+Bpython:S1481"%Remove the unused local variable "i".(Þ¦”‘ÿÿÿÿÿ
+@python:S108")Either remove or fill this block of code.(ã‘Û¾
+kpython:S117"TRename this parameter "filePath" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚„ËÁ
+ppython:S117"YRename this local variable "fileSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(žÍÜÜ
+ipython:S1542"QRename function "fileOpenBar" to match the regular expression ^[a-z_][a-z0-9_]*$.(‚„ËÁ

@@ -25,3 +25,4 @@ def fileOpen(filepath):
 
 
 fileOpen("config.json")
+
